@@ -15,7 +15,7 @@ img {
 }
 
 body {
-  color: #9698B9;
+  color: #111111;
 }
 
 #page-content * {
@@ -283,6 +283,10 @@ li p {
   text-align: center;
 }
 
+.youtube {
+  text-align: center;
+}
+
 .text.text-col-2 p {
   -webkit-column-count: 2;
   -moz-column-count: 2;
@@ -292,10 +296,8 @@ li p {
   text-align: center;
   font-size:  1.1rem;
 }
-.text.text-col-2-centered p {
-  -webkit-column-count: 2;
-  -moz-column-count: 2;
-  column-count: 2;
+.text li {
+padding: 10px;
 }
 .text.text-col-2-centered h2,.text.text-col-2-centered p {
   text-align: center;
@@ -589,6 +591,8 @@ li p {
  .slides {
   height: 100vh;
   position: relative;
+  background-color: black;
+  background-opacity: 0.5;
 }
 
 .slide::before {

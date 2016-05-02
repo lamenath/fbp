@@ -22,15 +22,9 @@
 
 <body class="page <?= is_home() ? "home" : "" ?>">
 
-    <div id="right-panel">
 
-        <?php get_sidebar() ?>
-
-    </div>
 
     <div class="main" <?= the_wio_attributes(); ?>>
-
-        <a id="menu-hamburger" href="#right-panel"></a>
 
         <?php while (have_posts()) : the_post(); ?>
 
