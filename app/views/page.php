@@ -19,6 +19,15 @@
     <?php include('skin/page.php') ?>
 
 </head>
+    
+<script type="text/javascript" src="https://weglot.com/api/weglot.js"></script>
+<script>
+	Weglot.setup({
+	  api_key: 'wg_c3cd6d3b53d9bec47ddeb533584ccc61',
+	  originalLanguage: 'fr',
+	  destinationLanguages : 'en,es',
+	 });
+</script>
 
 <body class="page <?= is_home() ? "home" : "" ?>">
 
