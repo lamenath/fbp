@@ -6,13 +6,11 @@
 
 ?>
 
-<script type="text/javascript" src="https://weglot.com/api/weglot.js"></script>
+<script src="https://cdn.rawgit.com/wiym/wiym-widget/9949cf08/dist/wiym-widget.min.js"></script>
 <script>
-	Weglot.setup({
-	  api_key: 'wg_c3cd6d3b53d9bec47ddeb533584ccc61',
-	  originalLanguage: 'fr',
-	  destinationLanguages : 'en,es',
-	 });
+wiymWidget.init({
+  team: 'prismic',
+});
 </script>
 
 <div class="blog-header home" style="<?= $headerImageUrl ? 'background-image: url('.$headerImageUrl.')' : '' ?>">
