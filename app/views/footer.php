@@ -12,6 +12,12 @@
   });
 
 </script>
+<script src="https://cdn.rawgit.com/wiym/wiym-widget/9949cf08/dist/wiym-widget.min.js"></script>
+<script>
+wiymWidget.init({
+  team: 'prismic', // Don't touch this
+});
+</script>
 
 </body>
 </html>
