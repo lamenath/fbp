@@ -6,13 +6,6 @@
 
 ?>
 
-<script src="https://cdn.rawgit.com/wiym/wiym-widget/9949cf08/dist/wiym-widget.min.js"></script>
-<script>
-wiymWidget.init({
-  team: 'prismic',
-});
-</script>
-
 <div class="blog-header home" style="<?= $headerImageUrl ? 'background-image: url('.$headerImageUrl.')' : '' ?>">
 
   <div class="wrapper">
